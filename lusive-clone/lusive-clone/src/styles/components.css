@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
     font-family: 'Arial', sans-serif;
 }
 
@@ -11,7 +12,7 @@ body {
 }
 
 .hero {
-    background: url('../images/hero-bg.jpg') no-repeat center center/cover;
+    background-image: url('../images/hero-bg.jpg');
     height: 400px;
     display: flex;
     align-items: center;
@@ -20,32 +21,20 @@ body {
     text-align: center;
 }
 
-.features {
+.showcase {
     display: flex;
     justify-content: space-around;
-    padding: 40px 0;
+    padding: 20px;
 }
 
-.feature {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+.about {
     padding: 20px;
-    text-align: center;
-    width: 30%;
-}
-
-.cta {
-    background-color: #0070f3;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    margin: 40px 0;
+    background-color: #f4f4f4;
 }
 
 .footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px;
 }
